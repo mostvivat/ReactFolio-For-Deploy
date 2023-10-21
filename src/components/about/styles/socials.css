@@ -1,0 +1,36 @@
+@import "../../../data/styles.css";
+.social,
+.email-wrapper {
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.social a,
+.email-wrapper a {
+	text-decoration: none;
+}
+
+.social-icon {
+	font-size: 15px;
+	color: #000000;
+}
+
+.social-text {
+	color: #000000;
+	padding-left: 30px;
+	margin-top: -20px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.email::before {
+	content: "";
+	display: block;
+	padding-top: 20px;
+	border-top: 3px solid #6767f8;
+	margin-top: 20px;
+}
+
+.email-wrapper {
+	padding-top: 20px;
+}

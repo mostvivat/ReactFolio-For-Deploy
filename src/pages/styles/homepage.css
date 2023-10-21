@@ -1,0 +1,227 @@
+@import "../../data/styles.css";
+
+.homepage-logo-container {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 130px;
+	padding-bottom: 120px;
+}
+
+.homepage-container {
+	padding-top: 25px;
+}
+
+.homepage-first-area {
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.homepage-first-area-left-side {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.homepage-title {
+	width: 100% !important;
+}
+
+.homepage-subtitle {
+	width: 85% !important;
+}
+
+.homepage-first-area-right-side {
+	display: flex;
+	align-items: center;
+}
+
+.homepage-image-container {
+	width: 400px;
+	height: 400px;
+}
+
+.homepage-image-wrapper {
+	overflow: hidden;
+	border-radius: 10%;
+	transform: rotate(3deg);
+}
+
+.homepage-image-wrapper img {
+	width: 100%;
+}
+
+.homepage-socials {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	padding-top: 30px;
+}
+
+.homepage-social-icon {
+	padding-right: 20px;
+	font-size: 25px;
+	transition: color 0.2s ease-in-out;
+	color: var(--secondary-color);
+}
+
+.homepage-social-icon:hover {
+	color: var(--toplinkhover-color);
+}
+
+.homepage-after-title {
+	display: flex;
+	
+}
+
+.homepage-projects {
+	flex-basis: 300px;
+	padding-top: 40px;
+}
+
+.homepage-articles {
+	flex-basis: 900px;
+	padding-top: 30px;
+	margin-left: -30px;
+}
+
+.homepage-article {
+	padding-bottom: 5px;
+}
+
+.homepage-works {
+	flex-basis: 470px;
+	margin-left: -25px;
+}
+#line1 {
+	margin-top: 10rem;
+	font-size: 40px; /* Adjust size as needed */
+}
+  
+  #line2 {
+	font-size: 30px; /* Adjust size as needed */
+  }
+  
+
+  
+@media (max-width: 1024px) {
+	.homepage-first-area {
+		flex-direction: column;
+	}
+
+	.homepage-first-area-left-side {
+		display: flex;
+		flex-direction: column; 
+		align-items: flex-start;
+		width: 100%;
+		order: 2;
+	}
+
+	.homepage-title {
+		width: 100% !important;
+		margin-top: 20px;
+		order: 2;
+	}
+
+	.homepage-subtitle {
+		width: 100% !important;
+		margin-top: 10px;
+		order: 3;
+	}
+
+	.homepage-first-area-right-side {
+		width: 100%;
+		order: 1;
+	}
+
+	.homepage-image-container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		margin-left: 10px;
+		order: 1;
+	}
+
+	.homepage-after-title {
+		flex-direction: column;
+	}
+
+	.homepage-projects {
+		flex-basis: auto;
+	}
+
+	.homepage-articles {
+		flex-basis: auto;
+	}
+
+	.homepage-works {
+		flex-basis: auto;
+		margin-left: -25px;
+		margin-right: -25px;
+	}
+}
+@keyframes typing {
+	from { width: 0; }
+	to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+	from, to { border-color: transparent; }
+	50% { border-color: black; } /* Adjusted to black for visibility against the gradient text */
+  }
+  
+  .typewriter-text {
+	font-family: 'Fira Code', monospace;
+	font-size: 35px;
+	color: #F7AB6C;
+	overflow: hidden;
+	white-space: nowrap;
+  }
+  
+  .line {
+	overflow: hidden;
+	white-space: nowrap;
+	display: block;
+	background: linear-gradient(90deg, #F7AB6C, rgb(245, 142, 142));
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent; /* This makes the text color transparent, showing the gradient underneath */
+  }
+  
+  #line1 {
+	animation: typing 3s steps(44, end) 1s 1 normal both,
+			   blink-caret .75s step-end infinite 4s;
+  }
+  
+  #line2 {
+	animation: typing 3s steps(44, end) 4s 1 normal both,
+			   blink-caret .75s step-end infinite 7s;
+  }
+  @keyframes fadeIn {
+	0% { opacity: 0; }
+	100% { opacity: 1; }
+  }
+  
+  @keyframes shake {
+	0% { transform: translate(1px, 1px) rotate(0deg); }
+	10% { transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { transform: translate(-3px, 0px) rotate(1deg); }
+	30% { transform: translate(3px, 2px) rotate(0deg); }
+	40% { transform: translate(1px, -1px) rotate(1deg); }
+	50% { transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { transform: translate(-3px, 1px) rotate(0deg); }
+	70% { transform: translate(3px, 1px) rotate(-1deg); }
+	80% { transform: translate(-1px, -1px) rotate(1deg); }
+	90% { transform: translate(1px, 2px) rotate(0deg); }
+	100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  
+  .homepage-image {
+	animation-name: fadeIn, shake; /* Added shake animation here */
+	animation-duration: 2s, 0.5s; /* Added duration for shake animation */
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s, 7s; /* Added delay for shake animation - it starts after 7 seconds (text animation duration) */
+	width: 100%;
+	height: auto;
+  }
+  
