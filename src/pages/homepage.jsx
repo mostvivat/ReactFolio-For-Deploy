@@ -126,6 +126,7 @@ const Homepage = () => {
 						</div>
 						
 					</div>
+					
 					<div className="page-footer">
   <Footer />
 </div>

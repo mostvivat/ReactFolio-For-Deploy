@@ -1,0 +1,20 @@
+.contact-info-item {
+    padding: 2rem;
+    background-color: #e9dddd;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-info-item .icon {
+    color: #ffff;
+    background-color: #4b4949;
+    padding: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  

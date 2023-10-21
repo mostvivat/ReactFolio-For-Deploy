@@ -26,21 +26,16 @@ const Certificate = () => {
             <div className="page-content">
                 <NavBar active="certificate" />
                 <div className="content-wrapper">
-                    <div className="certificate-container">
-                                <h1>
-                                    <i className="fas fa-laptop-code"></i> My Certificates
-                                </h1>
-                        
-                                <AllCertificates />
-               
-    
-                        
+                <div className="contact-container">
+                    <div className="title certificate-title">Let's watch my certificates</div>
+                  <AllCertificates />
                         </div>
           <div className="page-footer">
             <Footer />
           </div>
         </div>
       </div>
+ 
     </React.Fragment>
   );
 };

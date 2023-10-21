@@ -26,8 +26,7 @@ const Projects = () => {
 				<div className="content-wrapper">
 					<div className="projects-container">
 						<div className="title projects-title">
-							Things I’ve made trying to put my dent in the
-							universe.
+							Things I’ve made during study.
 						</div>
 						<div className="projects-list">
 							<AllProjects />
