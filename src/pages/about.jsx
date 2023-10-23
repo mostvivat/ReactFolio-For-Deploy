@@ -6,7 +6,6 @@ import Footer from "../components/common/footer";
 import Work from "../components/about/Work";
 // eslint-disable-next-line
 import { workDetails, eduDetails } from "../components/about/Details"
-import Socials from "../components/about/socials";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import { HiDownload } from "react-icons/hi";
@@ -56,9 +55,7 @@ const About = () => {
 										/>
 									</div>
 								</div>
-								<div className="about-socials">
-									<Socials />
-								</div>
+								
 							</div>
 						</div>
 						<main className="container mx-auto max-width pt-10 pb-20 ">
@@ -77,11 +74,10 @@ const About = () => {
           							))
         							)}
     					</main>
+						<h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+          						Skills
+        				</h1>
 						<Skills/>
-						<div className="about-socials-mobile">
-							<Socials />
-						</div>
-						
 					</div>
 					<div className="page-footer">
 						<Footer />

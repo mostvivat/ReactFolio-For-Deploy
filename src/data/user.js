@@ -94,7 +94,7 @@ const INFO = {
 			title: "PHP WEBAPPLICATION WEBBOARD",
 			description:
 				"This is my first project. I Learn in university to make form website using HTML SQL & PHP.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "skills/icons8-php-logo.svg",
 			linkText: "View Project",
 			link: "https://github.com/mostvivat/Webapplication-PHP-EnET-C.git",
 			image: "/project/form.png"
@@ -104,7 +104,7 @@ const INFO = {
 			title: "KEPTANG Web Application",
 			description:
 				"This is my first project that developed by RUST language.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			logo: "skills/rust.png",
 			linkText: "View Project",
 			link: "https://github.com/mostvivat/Project-Keptang.git",
 			image:"/project/keptang.png"
@@ -124,7 +124,7 @@ const INFO = {
 			title: "LITTLE BUDDY Mobile Application",
 			description:
 				"This is my final project develop by using Flutter.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "skills/icons8-flutter.svg",
 			linkText: "View Project",
 			link: "https://github.com/Yunocat02/LittleBuddy.git",
 			image:"/project/LB.png"
@@ -134,7 +134,7 @@ const INFO = {
 			title: "BOOTSTRAP COMPUTER OFFICE WEBSITE",
 			description:
 				"This is my project for Webapplication subject.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "skills/icons8-bootstrap.svg",
 			linkText: "View Project",
 			link: "https://github.com/mostvivat/Webapplicaion-enet-c.git",
 			image:"/project/bootstrap.png"

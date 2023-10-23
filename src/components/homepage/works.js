@@ -36,7 +36,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								HORWANG
 							</div>
-							<div className="work-duration">2017 - 2020</div>
+							<div className="work-duration">2014 - 2020</div>
 						</div>
 					</div>
 				}

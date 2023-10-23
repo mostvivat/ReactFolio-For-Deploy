@@ -103,7 +103,14 @@
 	font-size: 30px; /* Adjust size as needed */
   }
   
+  .about-socials {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
 
+.about-socials-mobile {
+	display: none;
+}
   
 @media (max-width: 1024px) {
 	.homepage-first-area {

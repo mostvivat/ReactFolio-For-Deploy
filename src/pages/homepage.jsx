@@ -1,13 +1,11 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faFacebookF,
 	faGithub,
 	faInstagram,
-	
 } from "@fortawesome/free-brands-svg-icons";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
@@ -23,13 +21,7 @@ const Homepage = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-
-
-	
-
 	const currentSEO = SEO.find((item) => item.page === "home");
-
-	
 	return (
 		<React.Fragment>
 			<Helmet>
@@ -118,18 +110,21 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
+								
+						
 						<div className="homepage-after-title">
 							
 							<div className="homepage-works">
 								<Works/>
 							</div>
+						
 						</div>
 						
 					</div>
 					
 					<div className="page-footer">
-  <Footer />
-</div>
+  						<Footer />
+					</div>
 				</div>
 			</div>
 		</React.Fragment>
