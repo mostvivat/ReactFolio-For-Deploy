@@ -24,7 +24,9 @@ export default function ContactSocialsItem({
         </a>
       </div>
       <div className="info">
+        <div className="ptexts">
         <PText>{text}</PText>
+        </div>
       </div>
     </div>
   );

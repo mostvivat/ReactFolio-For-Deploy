@@ -22,7 +22,12 @@ const INFO = {
 	about: {
 		title: "About Me",
 		description:
-			"Now, I'm 22 years old. I'm based in Bangkok, Thailand. I'm undergraduated from King Monkut's University Of Technology North Bangkok.I'm very passionate about improving my  Testing skills.",
+			"Greetings! I am Vivat Chongsomchit, but you can call me Most. I am a 22-year-old senior student at King Monkut's University Of Technology North Bangkok, pursuing my degree in Electronics Engineering Technology (Computer). Based in the vibrant city of Bangkok, Thailand, my academic focus lies in the dynamic intersection of software and hardware engineering, with a particular emphasis on software development and quality assurance.",
+	},
+	cer:{
+		title: "Software Tester/ Quality Assurance",
+		description:
+			"Explore my certifications and qualifications earned throughout my learning journey.",
 	},
 	certificates: [
 		{
@@ -89,6 +94,11 @@ const INFO = {
 			image: "certificate/certi.png",
 		},
 	],
+	pro:{
+		title: "Software Tester/ Quality Assurance",
+		description:
+			"Explore my projects developed during my academic journey.",
+	},
 	projects: [
 		{
 			title: "PHP WEBAPPLICATION WEBBOARD",

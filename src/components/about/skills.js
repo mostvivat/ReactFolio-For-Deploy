@@ -52,8 +52,7 @@ const Skills = () => {
           title="Other"
           subtitle="Tools"
           images={[
-            //excel canva notion powerpoint obs
-            { src: 'skills/icons8-adobe-premiere-pro.svg', alt: 'Premiere Pro' },      
+            //excel canva notion powerpoint obs 
             { src: 'skills/icons8-adobe-photoshop.svg', alt: 'Photoshop' },
             { src: 'skills/icons8-excel.svg', alt: 'Excel' },
             { src: 'skills/icons8-powerpoint.svg', alt: 'Powerpoint' },
