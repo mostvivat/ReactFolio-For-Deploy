@@ -1,6 +1,5 @@
 import React from "react";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
-
 import Card from "../common/card";
 
 import "./styles/works.css";

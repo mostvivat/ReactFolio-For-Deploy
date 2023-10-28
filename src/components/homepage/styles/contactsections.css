@@ -34,6 +34,15 @@
 	color: var(--secondary-color);
 	padding-top: 22px;
 	padding-left: 50px;
-
 }
+
+.contacts-duration {
+	position: absolute;
+	width: 350px;
+	font-size: 12px;
+	padding-top: 20px;
+	text-align: right;
+	color: var(--tertiary-color);
+}
+
 

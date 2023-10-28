@@ -23,7 +23,7 @@
 }
 /* background: linear-gradient(180deg, #F8DAD0, #BCFEFE, #7be9ff); */
 .content-wrapper {
-	max-width: 1100px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -58,7 +58,7 @@
 	border-top: 2px solid var(--tertiary-color);
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 300px) {
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 90%) / 2);
