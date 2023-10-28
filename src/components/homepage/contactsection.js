@@ -22,9 +22,7 @@ const contactsection = () => {
                             <div className="contacts-subtitle">
                                 pokemost@gmail.com
                             </div>
-                            <div className="contact-duration"></div>
                         </div>
-
                         <div className="contact">
                             <img
                                 src="./icons8-phone-50.png"
@@ -35,7 +33,6 @@ const contactsection = () => {
                             <div className="contacts-subtitle">
                                 097-159-5272
                             </div>
-                            <div className="contact-duration"></div>
                         </div>
                     </div>
 				}

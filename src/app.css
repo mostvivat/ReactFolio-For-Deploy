@@ -58,7 +58,7 @@
 	border-top: 2px solid var(--tertiary-color);
 }
 
-@media (max-width: 300px) {
+@media (max-width: 1270px) {
 	.page-content:before,
 	.page-content:after {
 		width: calc((100% - 90%) / 2);
