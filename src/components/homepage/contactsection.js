@@ -20,7 +20,7 @@ const contactsection = () => {
                             />
                             <div className="contact-title">Gmail</div>
                             <div className="contacts-subtitle">
-                                pokemost@gmail.com
+                                most.vivat@gmail.com
                             </div>
                         </div>
                         <div className="contact">
